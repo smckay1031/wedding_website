@@ -1,4 +1,4 @@
-# Wedding_Website
+# Wedding Website
 
 ## Wedding of Alana Paris and Sean McKay 
 

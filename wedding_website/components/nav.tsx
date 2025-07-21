@@ -3,11 +3,11 @@ import "./nav.css"
 
 export default function Nav() {
   return (
-    <nav className="p-6 bg-background shadow">
-      <div className="text-black font-header w-full py-4 text-center">
-        <p className="text-5xl font-semibold"> Alana & Sean</p>
+    <nav className="flex justify-between items-center z-100 bg-gray-900/0 rounded-sm w-full overflow-hidden px-4">
+      <div className="font-header w-80 text-center z-100">
+        <p className="text-2xl font-semibold z-100"> Alana & Sean</p>
       </div>
-      <ul className="flex space-x-4 font-body w-full flex justify-center text-md font-semibold">
+      <ul className="flex space-x-3 font-body w-full flex justify-center text-sm font-semibold z-100">
         <li className="relative">
           <Link href="/" className="navLink">Home</Link>
         </li>

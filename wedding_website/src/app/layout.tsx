@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Bodoni_Moda_SC, Raleway} from "next/font/google";
 import "./globals.css";
+import Nav from "../../components/nav";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const bodoniModaSC = Bodoni_Moda_SC({
+  variable: "--font-bodoni-moda-sc",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const raleway = Raleway({
+  variable: "--font-raleway",
   subsets: ["latin"],
 });
 
@@ -24,8 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Nav />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${bodoniModaSC.variable} ${raleway.variable} antialiased`}
       >
         {children}
       </body>

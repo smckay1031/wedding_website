@@ -3,7 +3,7 @@ import "./nav.css"
 
 export default function Nav() {
   return (
-    <nav className="flex justify-between items-center z-100 bg-gray-900/0 rounded-sm w-full overflow-hidden px-4">
+    <div className=" absolute top-0 flex justify-between items-center z-100 bg-gray-900/0 rounded-sm w-full overflow-hidden px-4 py-2">
       <div className="font-header w-80 text-center z-100">
         <p className="text-2xl font-semibold z-100"> Alana & Sean</p>
       </div>
@@ -34,6 +34,6 @@ export default function Nav() {
          </li>
 
       </ul>
-    </nav>
+    </div>
   );
 }

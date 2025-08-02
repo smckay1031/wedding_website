@@ -15,7 +15,8 @@ export default function Home() {
           height={1080} 
           />
       </div>
-      <div className="sticky z-50 flex flex-col items-center justify-center h-screen w-full text-black">
+      <div className="sticky z-50 flex flex-col items-center justify-center h-screen w-full text-black"
+        style={{ backgroundImage: "" }}>
         <p> some text</p>
       </div>
     </div>

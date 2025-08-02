@@ -1,5 +1,4 @@
-import hero from "../../photos/IMG_1844.jpeg";
-import mouintains from "../../photos/watercolor_mountains.jpg";
+import hero from "../../photos/IMG_1844.jpeg"
 import Image from "next/image";
 
 

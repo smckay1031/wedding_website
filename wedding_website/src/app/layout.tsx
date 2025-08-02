@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Bodoni_Moda_SC, Raleway} from "next/font/google";
 import "./globals.css";
 import Nav from "../../components/nav";
+import Footer from "../../components/footer";
 
 const bodoniModaSC = Bodoni_Moda_SC({
   variable: "--font-bodoni-moda-sc",
@@ -31,6 +32,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <Footer />
     </html>
   );
 }

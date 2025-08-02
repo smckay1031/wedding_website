@@ -1,4 +1,5 @@
 import hero from "../../photos/IMG_1844.jpeg";
+import mouintains from "../../photos/watercolor_mountains.jpg";
 import Image from "next/image";
 
 
@@ -15,9 +16,12 @@ export default function Home() {
           height={1080} 
           />
       </div>
-      <div className="sticky z-50 flex flex-col items-center justify-center h-screen w-full text-black"
-        style={{ backgroundImage: "" }}>
-        <p> some text</p>
+      <div className=" relative sticky z-50 flex flex-col items-center justify-center min-h-screen w-full text-black bg-gradient-to-b from-slate-200 to- bg-opacity-5 bg-blur-md">
+        <div>
+          <h2 className="font-body text-6xl w-full text-center font-bold py-10 "> Date</h2>
+          <h3 className="font-body text-6xl "> May 1st 2026</h3>
+        </div>
+        
       </div>
     </div>
     </>

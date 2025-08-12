@@ -15,11 +15,11 @@ export default function Home() {
           height={1080} 
           />
       </div>
-      <div className=" relative sticky z-50 flex flex-col items-center justify-center min-h-screen w-full text-black px-30 py-48">
+      <div className=" relative sticky z-50 flex flex-col items-center justify-center min-h-screen w-full text-black px-8 md:px-32 lg:px-60 py-48">
         <div className="flex items-center justify center flex-col">
           <h2 className="font-header text-6xl w-full text-center font-semibold py-8"> Sean McKay & <br></br>Alana Paris</h2>
           <h3 className="font-body text-4xl"> May 1st 2026</h3>
-          <p className="font-body text-xl py-3"> Pigeon Forge TN</p>
+          <p className="font-body text-2xl py-3"> Pigeon Forge TN</p>
         </div>
         <div className="flex justify-center items-center flex-col w-full mt-64">
           <h4 className="font-header font-semibold text-4xl">The Venue</h4>

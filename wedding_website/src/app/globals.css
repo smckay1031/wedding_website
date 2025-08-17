@@ -3,7 +3,7 @@
 :root {
   --orange: #f69801;
   --foreground: #000000;
-  --background: #ffffff;
+  --background: rgb(186 230 253);
 }
 
 @theme inline {

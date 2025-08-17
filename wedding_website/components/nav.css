@@ -1,12 +1,12 @@
 
 .navLink {
-color: rgb(35, 35, 35);
+color: oklch(30.2% 0.056 229.695);
 position: relative;
 z-index: 100;
 }
 
 .navLink:hover {
-color: rgb(0, 0, 0);
+color: oklch(30.2% 0.056 229.695);
 transition-duration: 300ms;
 }
 

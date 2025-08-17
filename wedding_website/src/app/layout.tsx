@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Bodoni_Moda_SC, Raleway} from "next/font/google";
 import "./globals.css";
 import Nav from "../../components/nav";
-import Footer from "../../components/footer";
 
 const bodoniModaSC = Bodoni_Moda_SC({
   variable: "--font-bodoni-moda-sc",
@@ -25,14 +24,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="overfolow-x-hidden overflow-y-scroll">
       <Nav />
       <body
         className={`${bodoniModaSC.variable} ${raleway.variable} antialiased`}
       >
         {children}
       </body>
-      <Footer />
+      <div className="lg:h-100 h-50 w-full bg-cover bg-center bg-[url('../../photos/mountain-road-paint.jpg')] py-0">
+        <div className="h-full w-full bg-gradient-to-b from-sky-200 to-slate-200/0"> 
+        </div>
+      </div>
     </html>
   );
 }
